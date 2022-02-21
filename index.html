@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bainescredit Winners selector</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header-title">Welcome to  <strong>Bainescredit Microfince Bank</strong> </h1>
+            <p class="header-text bottom-text">Join us in selecting the winners</p>
+        </header>
+    
+        <main class="main" id="main">
+            <div id="main-container">
+                <h2 class="main-title"><p></p> Become a Winner!</p></h2>
+                <p class="main-text">
+                    Name Picker is an online tool to quickly select a random name from a list of names as winner for a draw. The tool can be used by teachers to select a random student or for lotteries or contests to draw a random winner. Just enter a list of names in the app and draw a random name
+                </p>
+            </div>
+    
+           <form action ="/form" method="POST" class="form" id="form"  >
+                <input type="text" name="name" id="myArray" placeholder="ADD NAMES/ ENTRIES" required>
+                <input type="number" name="times" id="times" placeholder="Number of winners" required>
+                <button type="submit" class="btn" id="submit-btn">Start</button>
+            </form>
+            <p class="main-footer-text">www.bainescredit.com<br> Best Bank to Bank with</p>
+        </main>
+    </div> <!--container for header and main-->
+
+    <script src="./index.js"></script>
+
+
+</body>
+</html>
